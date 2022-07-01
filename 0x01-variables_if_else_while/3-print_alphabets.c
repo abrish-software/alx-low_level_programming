@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 * main - print lowercase and uppercase a-zA-Z using putchar
 *
 * Return: Always 0 (Success)
@@ -16,21 +15,13 @@ char lower = 'a';
 
 char upper = 'A';
 
-while (lower <= 'z') /*print lowercases a-z*/
-
+while (lower <= 'z') 
 {
-
 putchar(lower);
-										lower++;
-										}
-
-while (upper <= 'Z') /*print uppercase A-Z*/
-
+lower++;									}
+while (upper <= 'Z') 
 {
-										putchar(upper);
-										upper++;
-										}
-
+putchar(upper);									upper++;									}
 putchar('\n');
 
 return (0);
