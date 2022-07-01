@@ -10,20 +10,19 @@
 int main(void)
 
 {
+char letter;
 
-char alpha = 'a';
-
-while (alpha <= 'z')
+for (letter = 'a'; letter <= 'z'; letter++)
 
 {
 
-if ((alpha != 'q') && (alpha != 'e'))
-										putchar(alpha);
-										alpha++;
-										}
+if (letter != 'e' && letter != 'q')
+
+putchar(letter);
+
+}
 
 putchar('\n');
-
 return (0);
 
 }
