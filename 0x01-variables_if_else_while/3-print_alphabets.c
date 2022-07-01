@@ -16,13 +16,24 @@ char lower = 'a';
 char upper = 'A';
 
 while (lower <= 'z') 
+
 {
+
 putchar(lower);
-lower++;									}
+
+lower++;
+
+}
 
 while (upper <= 'Z') 
+
 {
-putchar(upper);									upper++;									}
+
+putchar(upper);
+
+upper++;
+
+}
 
 putchar('\n');
 
