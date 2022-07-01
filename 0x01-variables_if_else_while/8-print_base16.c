@@ -11,26 +11,25 @@ int main(void)
 
 {
 
-int n = '0';
+char digit;
 
-int a_to_f = 'a';
+for (digit = '0'; digit <= '9'; digit++)
 
-while (n <= '9') 
 {
 
-putchar(n);
-n++;
+putchar(digit);
 
 }
 
-while (a_to_f <= 'f') 
+for (digit = 'a'; digit <= 'f'; digit++)
+
 {
-										putchar(a_to_f);
-										a_to_f++;
-										}
+
+putchar(digit);
+
+}
 
 putchar('\n');
-
 return (0);
 
 }
