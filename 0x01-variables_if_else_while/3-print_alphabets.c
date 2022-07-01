@@ -15,7 +15,7 @@ char lower = 'a';
 
 char upper = 'A';
 
-while (lower <= 'z') 
+while(lower <= 'z') 
 
 {
 
@@ -25,7 +25,7 @@ lower++;
 
 }
 
-while (upper <= 'Z') 
+while(upper <= 'Z') 
 
 {
 
