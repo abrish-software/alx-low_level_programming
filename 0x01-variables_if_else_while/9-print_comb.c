@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 *main - print 0-9 separated with commas, using putchar
 *
 *Return: Always 0 (Success)
@@ -20,17 +19,21 @@ while (n <= '9')
 
 putchar(n);
 
-										if (n != '9')
-										{
+if (n != '9')
 
-										putchar(',');
+{
+
+putchar(',');
 
 putchar(' ');
-										}
-										n++;
-										}
-putchar('\n');
 
+}
+
+n++;
+
+}
+
+putchar('\n');
 return (0);
 
 }
