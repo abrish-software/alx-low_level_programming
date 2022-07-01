@@ -11,29 +11,11 @@ int main(void)
 
 {
 
-char lower = 'a';
+char c;
 
-char upper = 'A';
+for (c = 'a'; c <= 'z'; c++)
 
-while (lower <= 'z') 
-
-{
-
-putchar(lower);
-
-lower++;
-
-}
-
-while (upper <= 'Z') 
-
-{
-
-putchar(upper);
-
-upper++;
-
-}
+putchar(c);
 
 putchar('\n');
 
