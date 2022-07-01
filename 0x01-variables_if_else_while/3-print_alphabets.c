@@ -19,9 +19,11 @@ while (lower <= 'z')
 {
 putchar(lower);
 lower++;									}
+
 while (upper <= 'Z') 
 {
 putchar(upper);									upper++;									}
+
 putchar('\n');
 
 return (0);
