@@ -6,10 +6,10 @@
 *@s: string
 *Return: int of number of words
 */
-
 int wrdcnt(char *s)
 {
 int i, n = 0;
+  
 for (i = 0; s[i]; i++)
 {
 if (s[i] == ' ')
@@ -29,11 +29,11 @@ return (n);
 *@str: string
 *Return: pointer to an array of strings
 */
-
 char **strtow(char *str)
 {
 int i, j, k, l, n = 0, ch = 0;
 char **x;
+  
 if (str == NULL || *str == '\0')
 return (NULL);
 n = wrdcnt(str);
